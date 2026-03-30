@@ -1,0 +1,32 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(find ~/Library/Application Support/Code/User -name settings.json -exec cat {})",
+      "Bash(2)",
+      "Bash(find ~/.config/Code/User -name settings.json -exec cat {})",
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\" -X POST \"https://coding.dashscope.aliyuncs.com/v1/chat/completions\" -H \"Content-Type: application/json\" -H \"Authorization: Bearer sk-sp-117b06de47cb4212976d5d1e98a6f7f0\" -d '{\"\"model\"\":\"\"MiniMax-M2.5\"\",\"\"messages\"\":[{\"\"role\"\":\"\"user\"\",\"\"content\"\":\"\"hi\"\"}],\"\"max_tokens\"\":10}' --connect-timeout 10)",
+      "Bash(curl -s -X POST \"https://coding.dashscope.aliyuncs.com/v1/chat/completions\" -H \"Content-Type: application/json\" -H \"Authorization: Bearer sk-sp-117b06de47cb4212976d5d1e98a6f7f0\" -d '{\"\"model\"\":\"\"MiniMax-M2.5\"\",\"\"messages\"\":[{\"\"role\"\":\"\"user\"\",\"\"content\"\":\"\"hi\"\"}],\"\"max_tokens\"\":10}' --connect-timeout 10)",
+      "Bash(grep -r \"bailian\\\\|Aliyun\\\\|阿里云\" ~ --include=*.json --include=*.toml --include=*.config)",
+      "WebFetch(domain:help.aliyun.com)",
+      "Bash(npm install:*)",
+      "Bash(npm list:*)",
+      "Bash(codex --version)",
+      "Bash(/Users/chrisfan/.vscode/extensions/openai.chatgpt-26.324.21329-darwin-arm64/bin/macos-aarch64/codex --version)",
+      "Bash(/Users/chrisfan/.nvm/versions/node/v24.13.0/bin/codex --version)",
+      "Bash(/Users/chrisfan/.nvm/versions/node/v24.13.0/lib/node_modules/@openai/codex/vendor/aarch64-apple-darwin/codex/codex --version)",
+      "Bash(chmod +x /Users/chrisfan/.vscode/extensions/openai.chatgpt-26.324.21329-darwin-arm64/bin/macos-aarch64/codex)",
+      "Bash(chmod +x /Users/chrisfan/.vscode/extensions/openai.chatgpt-26.325.21211-darwin-arm64/bin/macos-aarch64/codex)",
+      "Bash(/Users/chrisfan/.vscode/extensions/openai.chatgpt-26.325.21211-darwin-arm64/bin/macos-aarch64/codex --version)",
+      "Bash(/Users/chrisfan/.vscode/extensions/openai.chatgpt-26.325.21211-darwin-arm64/bin/macos-aarch64/codex --print-app-hash)",
+      "Bash(npm run:*)",
+      "Bash(npx vercel:*)",
+      "Bash(vercel login:*)",
+      "Bash(curl -s https://vercel.com -o /dev/null -w \"%{http_code}\" --connect-timeout 10)",
+      "Bash(gh --version)"
+    ]
+  },
+  "enableAllProjectMcpServers": true,
+  "enabledMcpjsonServers": [
+    "cloudbase"
+  ]
+}
