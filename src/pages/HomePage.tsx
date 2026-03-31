@@ -113,7 +113,7 @@ const HomePage = () => {
               <h3 className="text-2xl font-bold text-[#E6EDF3] mb-6">安装</h3>
               <div className="font-mono text-sm space-y-2">
                 <code className="text-[#7EE787]"># 持久安装（推荐）</code>
-                <code className="text-[#8B949E] block">uv tool install specify-cli --from git+https://github.com/github/speckit.git@v0.4.3</code>
+                <code className="text-[#8B949E] block">uv tool install specify-cli --from git+https://github.com/github/spec-kit.git@v0.4.3</code>
                 <code className="text-[#7EE787] block mt-4"># 初始化</code>
                 <code className="text-[#8B949E] block">specify init my-project --ai claude</code>
               </div>
@@ -224,7 +224,7 @@ const HomePage = () => {
             </div>
 
             <div className="text-center">
-              <a href="https://github.github.com/speckit/" target="_blank" rel="noopener" className="inline-block px-8 py-4 border border-[#F97316] text-[#F97316] font-bold hover:bg-[#F97316] hover:text-white transition-colors">
+              <a href="https://github.github.com/spec-kit/" target="_blank" rel="noopener" className="inline-block px-8 py-4 border border-[#F97316] text-[#F97316] font-bold hover:bg-[#F97316] hover:text-white transition-colors">
                 访问官方文档 →
               </a>
             </div>
