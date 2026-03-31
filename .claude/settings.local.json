@@ -22,7 +22,11 @@
       "Bash(npx vercel:*)",
       "Bash(vercel login:*)",
       "Bash(curl -s https://vercel.com -o /dev/null -w \"%{http_code}\" --connect-timeout 10)",
-      "Bash(gh --version)"
+      "Bash(gh --version)",
+      "Bash(gh repo:*)",
+      "Bash(gh auth:*)",
+      "Bash(mkdir -p ~/project/speckit)",
+      "Bash(cp -r \"/Users/chrisfan/Documents/AI/project/通用/.\" ~/project/speckit/)"
     ]
   },
   "enableAllProjectMcpServers": true,

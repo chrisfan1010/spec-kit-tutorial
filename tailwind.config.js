@@ -7,13 +7,18 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        sans: ['Inter', 'system-ui', '-apple-system', 'sans-serif'],
+        mono: ['JetBrains Mono', 'monospace'],
+      },
+    },
   },
   plugins: [
     daisyui,
   ],
   daisyui: {
-    themes: true, // Enable all themes
+    themes: true,
   },
 }
 
